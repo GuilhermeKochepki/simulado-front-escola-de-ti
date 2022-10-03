@@ -9,13 +9,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
+    "axios": "^0.27.2",
+    "clean-webpack-plugin": "^4.0.0",
     "expo": "~46.0.13",
     "expo-status-bar": "~1.4.0",
+    "json-loader": "^0.5.7",
     "react": "18.0.0",
-    "react-native": "0.69.6"
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-web": "~0.18.7",
+    "react-native-webpack": "^0.1.1",
+    "update": "^0.7.4",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "webpack-dev-server": "^4.11.1"
   },
   "private": true
 }
